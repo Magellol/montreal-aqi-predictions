@@ -6,6 +6,8 @@ Note: if dependencies change in `requirements.txt`, you must nuke the previous `
 
 ```console
 rm -rf .venv
+
+# Assuming usage of direnv
 direnv reload
 ```
 
