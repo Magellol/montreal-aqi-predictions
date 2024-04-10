@@ -1,4 +1,5 @@
 {
+  # Inspired by https://www.reddit.com/r/NixOS/comments/q71v0e/comment/hgn4sar/
   description = "A flake for pythonification";
 
   inputs = {
