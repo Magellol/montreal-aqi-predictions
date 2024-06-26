@@ -1,3 +1,7 @@
+# api-predictions
+
+Predicting AQI values in Montreal, QC. Read the accompanying [blog post](https://tlbvr.com/blog/predicting-montreal-aqi) for more details.
+
 ```console
 jupyter notebook
 ```
@@ -11,10 +15,10 @@ rm -rf .venv
 direnv reload
 ```
 
-You can also open this notebook in google colab if you need GPUs. You'll have to authorize google to access your github account.
+You can also open this notebook in google colab if you need a GPU.
 
-https://colab.research.google.com/github/{org}/{repo}/blob/main/{file}.ipynb
+https://colab.research.google.com/github/Magellol/aqi-predictions/blob/main/index.ipynb
 
-### Disclaimer
+## Disclaimer
 
-Nix flake configuration inspired by https://www.reddit.com/r/NixOS/comments/q71v0e/comment/hgn4sar/
+This project uses nix to setup the python environment. Nix flake configuration inspired by https://www.reddit.com/r/NixOS/comments/q71v0e/comment/hgn4sar/
